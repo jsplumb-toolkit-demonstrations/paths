@@ -1,4 +1,15 @@
 
+.jtk-node {
+    border:1px solid #ccc;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:3px;
+    min-width:100px;
+    padding:10px;
+}
+
 .jtk-animate-source {
     border: 4px solid yellow;
 }
@@ -22,6 +33,8 @@
     stroke:orangered;
     stroke-width:2;
 }
+
+
 
 /* -------------- transport controls -------------------------------------*/
 
@@ -61,3 +74,4 @@
     background-color:grey !important;
     color:#CCC !important;
 }
+
