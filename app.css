@@ -53,7 +53,7 @@
 }
 
 [action='pause']:after {
-    content:"▐ ▌";
+    content:"||";
 }
 
 [action='cancel']:after {
