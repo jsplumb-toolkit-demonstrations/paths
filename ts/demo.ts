@@ -55,12 +55,13 @@ ready(() => {
     const view = {
         edges: {
             [DEFAULT]: {
-                paintStyle: { lineWidth: 1, stroke: '#89bcde' },
+                //paintStyle: { lineWidth: 1, stroke: '#89bcde' },
                 overlays: [
                     {type:ArrowOverlay.type, options:{ fill: "#89bcde", width: 10, length: 10, location:1 } }
                 ]
             },
             "bidirectional":{
+                //parent:"default",
                 overlays: [
                     {type:ArrowOverlay.type, options:{ fill: "#89bcde", width: 10, length: 10, location:0, direction:-1 } }
                 ]
