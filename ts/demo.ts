@@ -12,12 +12,13 @@ import {
 } from "@jsplumbtoolkit/browser-ui-vanilla"
 
 import {
-    DEFAULT,
     DiamondOverlay,
     BlankEndpoint,
     StraightConnector,
     ArrowOverlay
 } from "@jsplumb/core"
+
+import { DEFAULT } from "@jsplumb/common"
 
 import { randomGraph } from "@jsplumb/toolkit-demo-support"
 
