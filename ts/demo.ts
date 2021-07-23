@@ -20,10 +20,9 @@ import {
 
 import { DEFAULT } from "@jsplumb/common"
 
-import { randomGraph } from "@jsplumb/toolkit-demo-support"
+import { randomGraph } from "jsplumbtoolkit-demo-support"
 
 import {SpringLayout} from "@jsplumbtoolkit/layout-spring"
-import { newInstance as newSyntaxHighlighter } from "@jsplumb/json-syntax-highlighter"
 import {MiniviewPlugin} from "@jsplumbtoolkit/browser-ui-plugin-miniview"
 import {LassoPlugin} from "@jsplumbtoolkit/browser-ui-plugin-lasso"
 import {PathTransport, SurfaceAnimator} from "@jsplumbtoolkit/browser-ui-anim"
@@ -176,8 +175,6 @@ ready(() => {
         toolkit.clearSelection()
         renderer.zoomToFit()
     })
-
-    newSyntaxHighlighter(toolkit, ".jtk-demo-dataset")
 
     // transport controls
 
