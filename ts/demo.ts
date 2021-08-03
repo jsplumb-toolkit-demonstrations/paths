@@ -4,21 +4,17 @@ import {
     EVENT_CANVAS_CLICK,
     EVENT_SURFACE_MODE_CHANGED,
     SurfaceMode,
+    DiamondOverlay,
+    BlankEndpoint,
+    StraightConnector,
+    ArrowOverlay,
+    DEFAULT
 } from "@jsplumbtoolkit/browser-ui"
 
 import {
     ready,
     newInstance
 } from "@jsplumbtoolkit/browser-ui-vanilla"
-
-import {
-    DiamondOverlay,
-    BlankEndpoint,
-    StraightConnector,
-    ArrowOverlay
-} from "@jsplumb/core"
-
-import { DEFAULT } from "@jsplumb/common"
 
 import { randomGraph } from "jsplumbtoolkit-demo-support"
 
