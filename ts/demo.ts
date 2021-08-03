@@ -8,10 +8,7 @@ import {
     BlankEndpoint,
     StraightConnector,
     ArrowOverlay,
-    DEFAULT
-} from "@jsplumbtoolkit/browser-ui"
-
-import {
+    DEFAULT,
     ready,
     newInstance
 } from "@jsplumbtoolkit/browser-ui-vanilla"
