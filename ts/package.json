@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "build": "npx tsc;npx rollup -c rollup.config.js"
+        "build": "(npx tsc || true) && npx rollup -c rollup.config.js"
     },
     "dependencies": {
         "@jsplumbtoolkit/browser-ui-vanilla": "^5.0.0",
