@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "@jsplumbtoolkit/browser-ui-vanilla": "^5.0.0",
+        "@jsplumbtoolkit/browser-ui-anim": "^5.0.0",
+        "@jsplumbtoolkit/layout-spring": "^5.0.0",
+        "@jsplumb/connector-bezier": "^5.0.0",
+        "@jsplumbtoolkit/browser-ui-plugin-miniview": "^5.0.0",
+        "@jsplumbtoolkit/browser-ui-plugin-lasso": "^5.0.0",
+        "jsplumbtoolkit-demo-support": "^1.0.0"
+    }
+}
