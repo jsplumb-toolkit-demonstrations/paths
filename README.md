@@ -8,7 +8,7 @@ This is an example of the Toolkit's ability to trace an overlay along the shorte
 
 This demonstration uses the jsPlumb Toolkit, so you'll need to be a licensee or evaluator, and you'll need to have setup your access to jsPlumb's NPM repository as described here: [https://docs.jsplumbtoolkit.com/toolkit/5.x/lib/npm-repository](https://docs.jsplumbtoolkit.com/toolkit/5.x/lib/npm-repository)
 
-Currently this demonstration is in Typescript only. We are working to provide ES5 and ES6 versions of all our demonstrations.
+There are Typescript and ES5 versions of this demonstration in this repository. 
 
 ### Installation
 
