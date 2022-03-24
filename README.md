@@ -36,7 +36,7 @@ npm run build
 <link rel="stylesheet" href="node_modules/@jsplumbtoolkit/browser-ui/css/jsplumbtoolkit-demo-support.css">
 <link rel="stylesheet" href="./app.css">
 ```
-`jsplumbtoolkit-demo.css` and `app.css` are used for this demo and are not jsPlumb Toolkit requirements. `jsplumbtoolkit.css` is recommended for all apps using the Toolkit, at least when you first start to build your app. This stylesheet contains sane defaults for the various widgets in the Toolkit. 
+`jsplumbtoolkit-demo-support.css` and `app.css` are used for this demo and are not jsPlumb Toolkit requirements. `jsplumbtoolkit.css` is recommended for all apps using the Toolkit, at least when you first start to build your app. This stylesheet contains sane defaults for the various widgets in the Toolkit. 
 
 #### JS
 
