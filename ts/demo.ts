@@ -15,7 +15,7 @@ import {
 
 import { randomGraph } from "jsplumbtoolkit-demo-support"
 
-import {SpringLayout} from "@jsplumbtoolkit/layout-spring"
+import {ForceDirectedLayout} from "@jsplumbtoolkit/layout-force-directed"
 import {MiniviewPlugin} from "@jsplumbtoolkit/browser-ui-plugin-miniview"
 import {LassoPlugin} from "@jsplumbtoolkit/browser-ui-plugin-lasso"
 import {PathTransport, SurfaceAnimator} from "@jsplumbtoolkit/browser-ui-anim"
@@ -116,7 +116,7 @@ ready(() => {
     const renderer = toolkit.render(canvasElement, {
         view:view,
         layout: {
-            type: SpringLayout.type,
+            type: ForceDirectedLayout.type,
             options: {
                 padding: {x: 30, y: 30}
             }

@@ -94,10 +94,7 @@ jsPlumbToolkitBrowserUIVanilla.ready(function() {
     var renderer = toolkit.render(canvasElement, {
         view:view,
         layout: {
-            type: "Spring",
-            options: {
-                padding: {x: 30, y: 30}
-            }
+            type: "ForceDirected"
         },
         plugins:[
             {
