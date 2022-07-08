@@ -1,12 +1,12 @@
 {
     "version": "5.8.0",
     "dependencies": {
-        "@jsplumbtoolkit/browser-ui-vanilla": "^5.8.0",
-        "@jsplumbtoolkit/browser-ui-anim": "^5.8.0",
-        "@jsplumbtoolkit/layout-force-directed": "^5.8.0",
-        "@jsplumb/connector-bezier": "^5.8.0",
-        "@jsplumbtoolkit/browser-ui-plugin-miniview": "^5.8.0",
-        "@jsplumbtoolkit/browser-ui-plugin-lasso": "^5.8.0",
+        "@jsplumbtoolkit/browser-ui-vanilla": "^5.9.0",
+        "@jsplumbtoolkit/browser-ui-anim": "^5.9.0",
+        "@jsplumbtoolkit/layout-force-directed": "^5.9.0",
+        "@jsplumb/connector-bezier": "^5.9.0",
+        "@jsplumbtoolkit/browser-ui-plugin-miniview": "^5.9.0",
+        "@jsplumbtoolkit/browser-ui-plugin-lasso": "^5.9.0",
         "jsplumbtoolkit-demo-support": "^1.0.0"
     }
 }
