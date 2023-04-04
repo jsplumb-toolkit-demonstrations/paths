@@ -125,7 +125,7 @@ jsPlumbToolkitBrowserUIVanilla.ready(function() {
         defaults: {
             anchor:"Continuous",
             connector: { type:"Straight", options:{ cssClass: "connectorClass", hoverClass: "connectorHoverClass" } },
-            endpoint: "Blank"
+            endpoint: "Dot"
         },
         consumeRightClick:false
     })

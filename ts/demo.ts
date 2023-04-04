@@ -10,15 +10,13 @@ import {
     ArrowOverlay,
     DEFAULT,
     ready,
-    newInstance
-} from "@jsplumbtoolkit/browser-ui-vanilla"
+    newInstance,
+    ForceDirectedLayout,
+    MiniviewPlugin,
+    LassoPlugin,
+    PathTransport, SurfaceAnimator} from "@jsplumbtoolkit/browser-ui"
 
 import { randomGraph } from "jsplumbtoolkit-demo-support"
-
-import {ForceDirectedLayout} from "@jsplumbtoolkit/layout-force-directed"
-import {MiniviewPlugin} from "@jsplumbtoolkit/browser-ui-plugin-miniview"
-import {LassoPlugin} from "@jsplumbtoolkit/browser-ui-plugin-lasso"
-import {PathTransport, SurfaceAnimator} from "@jsplumbtoolkit/browser-ui-anim"
 
 ready(() => {
 
